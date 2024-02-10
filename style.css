@@ -1,0 +1,354 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+
+.bg-nav {
+  background-color: #3e475b;
+}
+.licolor {
+  color: #f2e3bf !important;
+  transition: color 0.5s;
+}
+.licolor:hover {
+  color: rgb(252, 252, 173) !important;
+}
+.home1 {
+  height: 105vh;
+  margin: 5%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 54px;
+}
+.txtiam {
+  margin-left: 20px;
+  color: #ea9290;
+  font-size: 30px;
+  font-family: "Protest Riot", sans-serif;
+}
+.body {
+  background-color: #ea9290;
+}
+
+.imghome {
+  width: 30dvw;
+}
+
+h2 {
+  color: #ea9290 !important;
+  font-family: "Protest Riot", sans-serif;
+}
+.ptxt {
+  color: #3e475b;
+  font-family: "Oswald", sans-serif;
+}
+.about {
+  margin: 5%;
+}
+.h5head {
+  background-color: #3e475b !important;
+  border-color: #ea9290 !important;
+  color: #f2e3bf !important;
+  font-family: "Protest Riot", sans-serif;
+  font-size: 30px;
+}
+.txtlan {
+  font-family: "Oswald", sans-serif;
+  color: #3e475b !important;
+}
+.landiv {
+  
+  margin: 5%;
+  width: 50%;
+}
+
+.skills h2 {
+  color: #ea9290;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 3em;
+  font-weight: 600;
+}
+.skills {
+  padding: 0 15%;
+  text-align: center;
+  color: #ea9290 !important;
+  font-family: "Protest Riot", sans-serif;
+}
+.skil {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.s1:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+.s1 {
+  background-color: #3e475b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 10px solid #3e475b;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #2f343f;
+  transition: transform 0.5s ease;
+  margin: 1%;
+  text-align: center;
+  width: 200px;
+}
+.p1 {
+  color: #f2e3bf !important;
+  margin-top: 5px;
+  font-size: 2em;
+}
+.p12 {
+  color: #f2e3bf;
+  margin-top: 5px;
+  font-size: 1em;
+}
+.crdtit{
+  font-family: "Protest Riot", sans-serif;
+  color: #3e475b !important;
+
+}
+.ulpro{
+  margin: 5%;
+}
+.lipro{
+  margin: 1%;
+  margin-bottom: 2%;
+  font-family: "Oswald", sans-serif;
+
+ 
+  color: #3e475b !important;
+
+}
+.accordion-button:not(.collapsed) {
+  background-color: #ea9290 !important; 
+  box-shadow: 0 .5rem 1rem #dbc7c7 !important;
+}
+
+.accordion-button.collapsed {
+  box-shadow: none !important;
+}
+.workex{
+  margin: 5%;
+}
+.btn1{
+  color: #3e475b !important;
+}
+.txtwork{
+  color: #3e475b !important;
+  font-family: "Oswald", sans-serif;
+}
+footer{
+  background-color: #3e475b ;
+ 
+  display: flex;
+  
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 0px ;
+
+}
+.ico12 a i {
+  color: #dbc7c7 !important; /* تغيير لون الأيقونة */
+}
+.ico12{
+  font-size: 20px;
+  margin: 2%;
+ 
+}
+.fon1{
+  font-family: "Protest Riot", sans-serif;
+
+}
+.circle70 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: transparent;
+  border: 8px solid #f2e3bf;
+  border-radius: 50%;
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 30% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle85 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: transparent;
+  border: 8px solid #f2e3bf;
+  border-radius: 50%;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle60 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: transparent;
+  border: 8px solid #f2e3bf;
+  border-radius: 50%;
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 40% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle40 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: transparent;
+  border: 8px solid #f2e3bf;
+  border-radius: 50%;
+  clip-path: polygon(60% 0, 100% 0, 100% 100%, 60% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle50 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: transparent;
+  border: 8px solid #f2e3bf;
+  border-radius: 50%;
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr{
+  color: #2f343f;
+  border-width: 3px;
+  border-color: #2f343f;
+  border-style: solid;
+}
+.EDUCATION{
+  margin: 10%;
+}
+.txtsh{
+  font-family: "Oswald", sans-serif;
+  color: #3e475b !important;
+}
+
+
+@media (min-width:377px) and (max-width:768px) {
+  html {
+    font-size: 15px;
+  }
+  .home1 {
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+  }
+
+  .imghome {
+    order: -1;
+  }
+
+  .txtiam {
+    flex: 1;
+    margin: 2px;
+    text-align: center;
+  }
+
+  .skills {
+    padding: 0 5%;
+  }
+  .s1 {
+    width: 160px;
+  }
+  .circle70 {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #f2e3bf;
+  }
+  .circle85 {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #f2e3bf;
+  }
+  .circle60 {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #f2e3bf;
+  }
+  .circle40 {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #f2e3bf;
+  }
+  .circle50 {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #f2e3bf;
+  }
+}
+@media (min-width: 300px) and (max-width: 378px) {
+  html {
+    font-size: 10px;
+  }
+  .home1 {
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+  }
+
+  .imghome {
+    order: -1;
+  }
+
+  .txtiam {
+    flex: 1;
+    margin: 2px;
+    text-align: center;
+  }
+
+  .skills {
+    padding: 0 3%;
+  }
+  .circle70 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f2e3bf;
+  }
+  .circle85 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f2e3bf;
+  }
+  .circle60 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f2e3bf;
+  }
+  .circle40 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f2e3bf;
+  }
+  .circle50 {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f2e3bf;
+  }
+  .s1 {
+    width: 100px;
+  }
+}
